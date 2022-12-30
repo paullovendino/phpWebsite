@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Collections</title>
+      <link rel="stylesheet" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src= "https://kit.fontawesome.com/11ac07d21b.js" crossorigin= "anonymous"></script>
+      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/> -->
+   </head>
+   <body>
+      <nav>
+         <div class="menu-icon">
+            <span class="fas fa-bars"></span>
+         </div>
+         <div class="logo">
+            <a href="Homepage.html" style="color:black">Chosen Trends</a>
+         </div>
+         <div class="nav-items">
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Collections.html">Collections</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Account</a></li>
+         </div>
+         <div class="search-icon">
+            <span class="fas fa-search"></span>
+         </div>
+         <div class="cancel-icon">
+            <span class="fas fa-times"></span>
+         </div>
+        
+         <form action="#">
+            <input type="search" class="search-data" placeholder="Search..." required>
+            <button type="submit" class="fas fa-search"></button>
+        </form>
+      </nav>
+
+      <div class="collections-bgimg1">
+         <div class="collection-section">
+             <div class="collections-title">
+                 Mens
+             </div>
+             <div class="collections-title">
+                 Womens
+             </div>
+         </div>
+         <section id="section1">
+             <div class="items">
+                 <figure>
+                 <a href="#"><img src="mencloth1.jpg"></a>
+                 </figure>
+                 <center><h4>Round Neck Long Sleeves for Men</h4></center>
+                 <p>Details: Lace up<br>Composition: Cotton<br>Color: White<br>Length: Regular<br>Fabric: Slight Stretch</p>
+                 <center><h6 style="color:#ff4d4d;">₱149.00</h6></center>      
+                 <span></span>
+                 <button onclick="addtocart();" style="width:240px; border-radius: 20px; height: 50px;">Add to cart</button>
+                 
+             </div>
+             <div class="items">
+                 <figure>
+                 <a href="#"><img src="womencloth1.jpg"></a>
+                 </figure>
+                 <center><h4>Lace Up Backless Crop Cami Top</h4></center>
+                 <p>Color: Beige <br> Details: Criss cross, Tie Back and Rib-Knit<br>Pattern type: Plain<br>Fit type: Regular</p>
+                 <center><h6 style="color:#ff4d4d;">₱199.00</h6></center>      
+                 <span></span>
+                 <button onclick="addtocart();" style="width:240px; border-radius: 20px; height: 50px;">Add to cart</button>
+             </div>
+     
+             
+         </section>
+     
+         <div class="spacinglang">
+     
+         </div>
+     
+         <section id="section1">
+             <div class="items">
+                 <figure>
+                 <a href="#"><img src="mencloth2.jpg"></a>
+                 </figure>
+                 <center><h4>Zip up Jacket</h4></center>
+                 <p>Color: Black<br>Style: Casual<br>Details: Lace up<br>Placket type: Regular<br>Fabric: Non-Stretch<br>Composition: Polyester</p>
+                 <center><h6 style="color:#ff4d4d;">₱249.00</h6></center>      
+                 <span></span>
+                 <button onclick="addtocart();" style="width:240px; border-radius: 20px; height: 50px;">Add to cart</button>
+                 
+             </div>
+             <div class="items">
+                 <figure>
+                 <a href="#"><img src="womencloth2.jpg"></a>
+                 </figure>
+                 <center><h4>Ruched Bust Bodycon Dress</h4></center>
+                 <p>Color: Pink<br>Details: Ruched Bust<br>Pattern type: Plain<br>Fit type: Regular Fit<br>Composition: Polyester</p>
+                 <center><h6 style="color:#ff4d4d;">₱199.99</h6></center>      
+                 <span></span>
+                 <button onclick="addtocart();" style="width:240px; border-radius: 20px; height: 50px;">Add to cart</button>
+             </div>
+     
+             
+         </section>
+     
+         <div class="spacinglang">
+     
+         </div>
+     
+         <section id="section1">
+             <div class="items">
+                 <figure>
+                 <a href="#"><img src="mencloth3.jpg"></a>
+                 </figure>
+                 <center><h4>Basic Polo shirt</h4></center>
+                 <p>Color: Maroon<br>Details: Button Front<br>Placket type: Zipper<br>Fabric: Slight-stretch<br>Composition: 100% Polyester</p>
+                 <center><h6 style="color:#ff4d4d;">₱149.99</h6></center>      
+                 <span></span>
+                 <button onclick="addtocart();" style="width:240px; border-radius: 20px; height: 50px;">Add to cart</button>
+                 
+             </div>
+             <div class="items">
+                 <figure>
+                 <a href="#"><img src="womencloth3.jpg"></a>
+                 </figure>
+                 <center><h4>Cozy Two-Tone Sweatpants</h4></center>
+                 <p>Color: Black and White<br>Details: Two-Tone<br>Composition: Polyester<br>Pattern type: Letter<br>Fit type: Regular Fit</p>
+                 <center><h6 style="color:#ff4d4d;">₱299.99</h6></center>      
+                 <span></span>
+                 <button onclick="addtocart();" style="width:240px; border-radius: 20px; height: 50px;">Add to cart</button>
+             </div>
+         </section>
+     </div>
+
+     <div class="footer">
+      <footer>
+          <div class="footercontent">
+            <h4><b>FOLLOW US</b></h4>
+            <ul class="socials">
+              <li><a href="https://www.facebook.com/profile06142002" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/paul_lovendino" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.instagram.com/_jampol/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://www.tiktok.com/@johnpaullovendino14" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+            </ul>
+          </div>
+          <div class="copyright">
+              <p>Copyright &copy;2022 BSCS3A. Designed by Group ano</p>
+          </div>
+      </footer>
+  </div> 
+
+  <script type = "text/javascript">
+   function addtocart() {
+
+       alert("Added to cart!");
+   }
+</script>
+</body>
+</html>
